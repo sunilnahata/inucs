@@ -12,10 +12,11 @@ Given nucleosome genomic coordinates, ligation junctions (in pairs format) produ
 ## 1 Installation
 
 1. Install [Anaconda](https://www.anaconda.com/products/individual) with Python 3.9 or above.
-2. Install the `inucs` dependencies using Anaconda. In a terminal where anaconda is activated type:
+2. Install the `inucs` dependencies using Anaconda by creating a new environment. In a terminal where anaconda is activated, type:
 
 ```bash
-conda install pandas bokeh
+conda create -n inucs pandas=2.0.0 bokeh=3.0.1
+conda activate inucs
 ```
 Then, the fully self-contained python script, [`inucs.py`](./inucs.py), can be directly executed; for example:
 
