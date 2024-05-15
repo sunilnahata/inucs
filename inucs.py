@@ -33,7 +33,7 @@ from pandas.errors import EmptyDataError
 class S:  # S for Settings
     """ Holds all the Settings and Constants used globally """
     # todo the following constants should be read from a config file
-    TESTING_MODE = False
+    TESTING_MODE = False 
     COMMENT_CHAR = '#'
     FIELD_SEPARATOR = '\t'
     NORM_DISTANCE = 200  # normalization parameter specifying genomic distance
